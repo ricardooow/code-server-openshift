@@ -28,7 +28,7 @@ parameters:
     value: coder
   - name: DOCKER_IMAGE
     description: Docker image to use
-    value: jefferyb/code-server:latest
+    value: ricardooow/code-server:latest
     # value: chinodesuuu/coder:openshift
     required: true
   - name: URL
@@ -41,7 +41,7 @@ parameters:
     description: Provide your own password, else, it defaults to "coder"
   - name: PVC_STORAGE
     description: Persistent Volume Claim Storage space
-    value: 10Gi
+    value: 1Gi
 
 objects:
   - apiVersion: image.openshift.io/v1
